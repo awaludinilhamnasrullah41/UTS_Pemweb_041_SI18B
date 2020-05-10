@@ -5,21 +5,7 @@ $query = mysqli_query ($conn,"Select * FROM jenispekerjaan where idjenispekerjaa
 $result_edit = mysqli_fetch_array($query);
 }
 ?>
-      <!-- Static Table Start -->
-      <div class="content-header">
-    <div class="header-section">
-        <h1>
-            <i class="fa fa-table"></i>Buat Soal
-        </h1>
-    </div>
-</div>
-<!-- END Datatables Header -->
 
-<!-- Datatables Content -->
-<div class="block full">
-    <a class="btn btn-sm btn-info" data-placement="bottom" title="Settings" onclick="$('#modal-user-settings').modal('show');">Tambah Soal</a>
-    <div class="modal fade" id="modal-user-settings" role="dialog">
-        <div class="modal-dialog">
 
             <!-- Modal content-->
             <div class="modal-content">
