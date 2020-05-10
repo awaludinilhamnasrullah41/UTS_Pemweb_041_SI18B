@@ -9,7 +9,7 @@ $result_edit = mysqli_fetch_array($query);
       <div class="content-header">
     <div class="header-section">
         <h1>
-            <i class="fa fa-table"></i>Soal Tes
+            <i class="fa fa-table"></i>Buat Soal
         </h1>
     </div>
 </div>
@@ -31,7 +31,7 @@ $result_edit = mysqli_fetch_array($query);
                 
                 <!-- Modal Body -->
                 <div class="modal-body">
-                    <form action="user/prosestambah.php" method="post" >
+                    <form action="user/prosestambahpekerjaan.php" method="post" >
                         <div class="form-group">
                             <label >ID Pekerjaan</label>
                             <div >
